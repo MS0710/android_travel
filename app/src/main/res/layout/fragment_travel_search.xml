@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TravelSearchFragment"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="關鍵字 :"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/edit_travelSearch_input"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"/>
+
+        <ImageButton
+            android:id="@+id/btn_travelSearch_search"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:src="@drawable/search1"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_travelSearch_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="全部"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/btn_item_selector"/>
+
+            <Button
+                android:id="@+id/btn_travelSearch_farm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="休閒農場"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/btn_item_selector"/>
+
+            <Button
+                android:id="@+id/btn_travelSearch_garden"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="觀光果園"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/btn_item_selector"/>
+
+            <Button
+                android:id="@+id/btn_travelSearch_spring"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="春"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/btn_item_selector"/>
+
+            <Button
+                android:id="@+id/btn_travelSearch_summer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="夏"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/btn_item_selector"/>
+            <Button
+                android:id="@+id/btn_travelSearch_fall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="秋"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/btn_item_selector"/>
+            <Button
+                android:id="@+id/btn_travelSearch_winter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="冬"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/btn_item_selector"/>
+            <Button
+                android:id="@+id/btn_travelSearch_oneDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="一日行程"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/btn_item_selector"/>
+            <Button
+                android:id="@+id/btn_travelSearch_twoDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="二日行程"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/btn_item_selector"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_travelSearch_north"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="北部"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/btn_item_selector"/>
+
+            <Button
+                android:id="@+id/btn_travelSearch_mid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中部"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/btn_item_selector"/>
+
+            <Button
+                android:id="@+id/btn_travelSearch_south"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="南部"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/btn_item_selector"/>
+
+            <Button
+                android:id="@+id/btn_travelSearch_east"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="東部"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/btn_item_selector"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:orientation="vertical"
+        android:background="@color/black"
+        android:layout_marginVertical="10dp"/>
+
+    <ListView
+        android:id="@+id/lv_travelSearch_attractions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
