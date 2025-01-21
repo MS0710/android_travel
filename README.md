@@ -3,11 +3,11 @@ Android 旅遊景點介紹APP
 
 | 登入 | 帳號註冊 |
 | :----: | :----: |
-| <img src="images/登入.png" width="50%"> | <img src="images/帳號註冊.png" width="50%">|
+| <img src="images/登入.jpg" width="50%"> | <img src="images/帳號註冊.jpg" width="50%">|
 
 | 密碼查詢 | 旅遊搜尋 |
 | :----: | :----: |
-| <img src="images/密碼查詢.png" width="50%"> | <img src="images/旅遊搜尋.png" width="50%">|
+| <img src="images/密碼查詢.jpg" width="50%"> | <img src="images/旅遊搜尋.jpg" width="50%">|
 
 | 景點內容 | 行程規劃 |
 | :----: | :----: |
